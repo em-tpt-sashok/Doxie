@@ -16,5 +16,6 @@ jobs:
         shell: bash
         run: |
           echo "this is ashok"
+          mkdir sana
         
   
