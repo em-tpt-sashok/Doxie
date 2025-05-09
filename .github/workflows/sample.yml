@@ -1,0 +1,20 @@
+name: Sample Githubworkflow
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  my_selfhosted_jobs:
+    name: self hosted jobs
+    runs-on: self-hosted
+    steps: 
+      - name: steps in self hosted jobs
+        id: Self-hosted-sana-Id
+        shell: bash
+        run: |
+          echo "this is ashok"
+        
+  
